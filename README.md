@@ -2,6 +2,19 @@
 
 This project provides a stable Python driver and GUI for the **Tiqiaa (Tview)** USB IR Transceiver. It bypasses the need for the official "CaptureIR" software and allows for custom scripting, specifically designed for IT Managers to unlock **Samsung Hospitality TVs**.
 
+
+## Image of the IR Blaster
+Notice how there's the dot pattern in a triangle shape I believe that is unique to this model.
+<img width="631" height="855" alt="image" src="https://github.com/user-attachments/assets/73882929-2f9c-4412-bd6f-b6e7e51ff823" />
+<img width="628" height="838" alt="image" src="https://github.com/user-attachments/assets/cade4b69-cd4e-403a-b9c8-7a4fa86640f6" />
+<img width="608" height="1080" alt="image" src="https://github.com/user-attachments/assets/6d0bdb5b-3e55-4234-814b-703fc7087251" />
+<img width="608" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e22a120-3b6a-463f-aa92-d81c65511022" />
+
+Link to the app :
+[Playstore](https://play.google.com/store/apps/details?id=com.tiqiaa.remote&hl=en)
+[ApkPure](https://apkpure.com/universal-tv-remote-zaza-remot/com.tiqiaa.remote)
+
+
 ## 🔌 Hardware Compatibility
 
 **IMPORTANT:** Not all USB IR dongles are the same. This project **ONLY** works with the Tiqiaa chipset.
@@ -82,6 +95,7 @@ The Tiqiaa hardware is sensitive to packet timing. If you send data too fast, it
 ### Running the Tool
 
 Simply run the script via Python:
+You will notice the led on the ir blaster blink red as well as it's sending the signal
 
 ```bash
 python HotelModeSamsung_aio.py
