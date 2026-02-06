@@ -112,5 +112,3 @@ This project was built upon the hard work of the open-source community who rever
 
 * **Normanr:** [gitlab.com/normanr/tiqiaa-usb-ir-py](https://gitlab.com/normanr/tiqiaa-usb-ir-py)
 * **XenRE:** Based on the post at [Habr.com](https://habr.com/ru/post/494800/) and code at [gitlab.com/XenRE/tiqiaa-usb-ir](https://gitlab.com/XenRE/tiqiaa-usb-ir).
-
-```
